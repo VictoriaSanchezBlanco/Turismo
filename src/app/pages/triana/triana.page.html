@@ -1,0 +1,69 @@
+<ion-content>
+  <div id="ionBody">
+    <ion-slides class="slide-full" [options]="sliderConfig">
+      <ion-slide
+        *ngFor="let slide of slides"
+        [id]="slide"
+        class="slide-card"
+      >
+      </ion-slide>
+    </ion-slides>
+
+    <div id="text">
+      <ion-icon name="trail-sign" id="icon" size="small"></ion-icon>
+      <p>35km</p>
+      <h1>{{ building.name }}</h1>
+      <ion-icon name="medical" id="icon1"></ion-icon>
+      <ion-icon name="medical" id="icon2"></ion-icon>
+      <ion-icon name="medical" id="icon3"></ion-icon>
+      <ion-icon name="medical" id="icon4"></ion-icon>
+      <ion-icon name="medical" id="icon5"></ion-icon>
+      <ion-icon name="medical" id="icon6"></ion-icon>
+      <p>5.0</p>
+      <p>In a nutshell</p>
+      <p>
+        {{ building.info }}
+      </p>
+    </div>
+    <div id="hr"></div>
+    <ion-button id="buttonGame" (click)="goGame()">Play Now</ion-button>
+  </div>
+
+  <div id="ionBody2" class="animated">
+    <ion-slides pager class="slide-full2" [options]="sliderConfig">
+      <ion-slide
+        *ngFor="let slide of slides"
+        [id]="slide"
+        class="slide-card"
+      >
+      </ion-slide>
+    </ion-slides>
+    <div id="op"></div>
+    <div id="text2">
+      <ion-icon name="trail-sign" id="iconR" size="small"></ion-icon>
+      <p>35km</p>
+      <h1>{{ building.name }}</h1>
+      <p>
+        {{ building.info }}
+      </p>
+      <ion-icon name="medical" id="icon7"></ion-icon>
+      <ion-icon name="medical" id="icon8"></ion-icon>
+      <ion-icon name="medical" id="icon9"></ion-icon>
+      <ion-icon name="medical" id="icon10"></ion-icon>
+      <ion-icon name="medical" id="icon11"></ion-icon>
+      <ion-icon name="medical" id="icon12"></ion-icon>
+      <p>5.0</p>
+    </div>
+    <div class="col-12 arrow">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="swipeUps" (panup)="TransitionPagePanUp($event)">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+      <p>Swipe Up</p>
+    </div>
+  </div>
+</ion-content>

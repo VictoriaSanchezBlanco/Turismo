@@ -1,0 +1,138 @@
+
+#contenedor{
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+}
+
+#contenedor > div {
+    height: 10%;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    background: #74bef0;
+    box-shadow: 0px 0px 10px #b1b1b1;
+}
+
+#contenedor div:nth-child(1){
+    top: 5%;
+}
+
+#contenedor div:nth-child(1) .img1{
+    height: 6vh;
+    width: 6vh;
+    position: absolute;
+    border-radius: 50%;
+    top: 18%;
+    left: 4%;
+}
+
+#contenedor div:nth-child(1) .img2{
+    height: 35%;
+    width: 35%;
+    position: absolute;
+    border-radius: 50%;
+    top: 50.5%;
+    left: 22%;
+}
+
+#contenedor div:nth-child(1) h1{
+    width: 100%;
+    position: absolute;
+    top: -15%;
+    left: 20%;
+    font-size: 18px;
+    font-family: 'Quicksand-regular';
+}
+
+#contenedor div:nth-child(1) ion-icon{
+    color: #0768A9;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 32.5%;
+    left: 77%;
+  }
+
+#contenedor div:nth-child(2){
+    top: 20%;
+}
+
+#contenedor div:nth-child(2) .img1{
+    height: 6vh;
+    width: 6vh;
+    position: absolute;
+    border-radius: 50%;
+    top: 18%;
+    left: 4%;
+}
+
+#contenedor div:nth-child(2) .img2{
+    height: 35%;
+    width: 35%;
+    position: absolute;
+    border-radius: 50%;
+    top: 50.5%;
+    left: 22%;
+}
+
+#contenedor div:nth-child(2) h1{
+    width: 100%;
+    position: absolute;
+    top: -15%;
+    left: 20%;
+    font-size: 18px;
+    font-family: 'Quicksand-regular';
+}
+
+#contenedor div:nth-child(2) ion-icon{
+    color: #0768A9;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 32.5%;
+    left: 77%;
+  }
+
+#contenedor div:nth-child(3){
+    top: 35%;
+}
+
+#contenedor div:nth-child(3) .img1{
+    height: 6vh;
+    width: 6vh;
+    position: absolute;
+    border-radius: 50%;
+    top: 18%;
+    left: 4%;
+}
+
+#contenedor div:nth-child(3) .img2{
+    height: 35%;
+    width: 35%;
+    position: absolute;
+    border-radius: 50%;
+    top: 50.5%;
+    left: 22%;
+}
+
+#contenedor div:nth-child(3) h1{
+    width: 100%;
+    position: absolute;
+    top: -15%;
+    left: 20%;
+    font-size: 18px;
+    font-family: 'Quicksand-regular';
+}
+
+#contenedor div:nth-child(3) ion-icon{
+    color: #0768A9;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 32.5%;
+    left: 77%;
+  }
+
+
+  

@@ -1,0 +1,28 @@
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <div id="header">
+      <h1>Las Palmas de Gran Canaria</h1>
+    </div>
+  
+    <ion-slides class="slide-full" [options]="sliderConfig">
+      <ion-slide *ngFor="let place of arrayPlaces" (click)="goMonumentList(place)" class="slide">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>{{ place }}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content id="card ios md">
+            <!-- <ion-icon name="medical" id="icon1"></ion-icon>
+            <ion-icon name="medical" id="icon2"></ion-icon>
+            <ion-icon name="medical" id="icon3"></ion-icon>
+            <ion-icon name="medical" id="icon4"></ion-icon>
+            <ion-icon name="medical" id="icon5"></ion-icon>
+            <ion-icon name="medical" id="icon6"></ion-icon>
+            <p>5.0</p> -->
+          </ion-card-content>
+          <div id="cardOp"></div>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+
+  </div>
+</ion-content>
